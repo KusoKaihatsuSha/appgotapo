@@ -17,37 +17,69 @@
 
 ### Commands
 Short description of functionality:
+
 `test` - test moving by saving position (C200)
+
 `reboot` - reboot device
+
 `next` - move to next saved position
+
 `led_on` - led turn on
+
 `led_off` - led turn off
+
 `night_auto` - use auto mode
+
 `night_on` - use night mode
+
 `night_off` -not use night mode
+
 `alarm_on` - alarm preset 1 on
+
 `alarm_off` - alarm preset 1 off
+
 `alarm2_on` - alarm preset 2 on
+
 `alarm2_off` - alarm preset 2 off
+
 `detect_on` - use visual and sound alarm by setting preset
+
 `detect_off` - off visual and sound alarm
+
 `off` - private mode off
+
 `on` - private mode on
+
 `bigbro_on` - use moving tower on moving objects
+
 `bigbro_off` - off moving eye
+
 `flash_on` - visual alarm on
+
 `flash_off` - visual alarm off
+
 `sound_on` - sound alarm on
+
 `sound_off` - sound alarm off
+
 `text_on` - text on screen mode on
+
 `text_off` - text on screen mode off
+
 `time_on` - time on screen mode on
+
 `time_off` - time on screen mode off
+
 `sens:3` -  level sensitivity of finding objects
+
 `text:isTestedText` - set osd text
+
 `refresh_on` - refresh osd
+
 `refresh_off` - not refresh osd
+
 `sleep:3s` - delay between commands
+
 
 ### Examples
 
