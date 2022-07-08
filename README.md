@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![godoc](https://godoc.org/github.com/KusoKaihatsuSha/appgotapo?status.svg)](https://godoc.org/github.com/KusoKaihatsuSha/appgotapo) [![Go Report Card](https://goreportcard.com/badge/github.com/KusoKaihatsuSha/appgotapo)](https://goreportcard.com/report/github.com/KusoKaihatsuSha/appgotapo)
+
 # App for remoting TAPO Cameras (C200, C310)
 > Notes: CLI (NON-GUI) unofficial app for remoting model cameras TP Link Tapo C200/C310
 
