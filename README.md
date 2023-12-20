@@ -1,13 +1,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![godoc](https://godoc.org/github.com/KusoKaihatsuSha/appgotapo?status.svg)](https://godoc.org/github.com/KusoKaihatsuSha/appgotapo) [![Go Report Card](https://goreportcard.com/badge/github.com/KusoKaihatsuSha/appgotapo)](https://goreportcard.com/report/github.com/KusoKaihatsuSha/appgotapo)
 
-# App for remoting TAPO Cameras (C200, C310)
+# App for remoting TAPO Cameras (C200, C210, C220, C310 and other)
+
 > Notes: CLI (NON-GUI) unofficial app for remoting model cameras TP Link Tapo C200/C310
 
 > !!! Caution with update your cameras to new drivers. May be problems with using unofficial apps.
 
+> !!! Don't forget to update the `gotapo` package.
+
 ### Accessible flags
 
-`-host string`  - Camera IP
+`-host string`  - Camera IP or IPs ("192.168.1.111,192.168.1.222")
 
 `-p string`     - Camera password
 
@@ -72,6 +75,10 @@ Short description of functionality:
 
 `time_off` - time on screen mode off
 
+`flip_on` - flip picture 180 degree
+
+`flip_off` - flip normal
+
 `sens:3` -  level sensitivity of finding objects
 
 `text:isTestedText` - set osd text
@@ -79,6 +86,8 @@ Short description of functionality:
 `refresh_on` - refresh osd
 
 `refresh_off` - not refresh osd
+
+`move:100_10` - move tower on 100 degrees on X and 10 degrees on Y
 
 `sleep:3s` - delay between commands
 
